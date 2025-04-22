@@ -4,7 +4,7 @@ from datetime import datetime
 import uuid
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all domains
+  # Enable CORS for all domains
 
 # In-memory database (replace with real DB like SQLite/PostgreSQL in production)
 tasks = []
